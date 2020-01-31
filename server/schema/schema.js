@@ -82,7 +82,7 @@ const Query = new GraphQLObjectType({
     }
   }
 })
-
+//mongodb+srv://maximas:maxsoul1@cluster-graphql-tutorial-xnosu.mongodb.net/test?retryWrites=true&w=majority
 module.exports = new GraphQLSchema({
   query: Query
 })
